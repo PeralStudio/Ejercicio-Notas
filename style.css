@@ -1,5 +1,6 @@
 body { 
     background-image: url("./fondo.jpg");
+    background-repeat: no-repeat;
     color: black; 
     font-family: Verdana; 
     height: 100%;
@@ -24,10 +25,19 @@ body {
     font-family: monospace;
 }
 
-@media only screen and (max-width: 600px) {
-    .titulo {
-        font-size: 25px;
-        margin-top: 20px;
+@media all and (max-width: 600px) {
+.titulo {
+    font-size: 25px;
+    margin-top: 20px;
+    }
+
+body { 
+    background-image: url("./fondo.jpg");
+    color: black; 
+    font-family: Verdana; 
+    height: 100%;
+    width: 100%;
+    text-align: center;
     }
 }    
 
@@ -84,14 +94,14 @@ p {
 
 hr.hr1 {
     border-top: 1px solid green;
-    width: 80vh;
+    width: 100%;
     padding-bottom: 2vh;
     
   }
 
 hr.hr2 {
     border-top: 1px solid green;
-    width: 80vh;
+    width: 100%;
     padding-top: 5vh;
     
   }
