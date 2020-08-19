@@ -93,14 +93,14 @@ p {
 
 hr.hr1 {
     border-top: 1px solid green;
-    width: 100%;
+    width: 50%;
     padding-bottom: 2vh;
     
   }
 
 hr.hr2 {
     border-top: 1px solid green;
-    width: 100%;
+    width: 50%;
     padding-top: 5vh;
     
   }
